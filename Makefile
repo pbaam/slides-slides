@@ -1,2 +1,2 @@
 all:
-	pandoc -s --mathjax -i -t revealjs slides.md -o index.html
+	pandoc --self-contained -s --mathjax -i -t revealjs slides.md -o index.html
